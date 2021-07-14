@@ -68,7 +68,9 @@ a:visited,
     background-color: #E02C6D;
 }
 
+/* ---------------------- */
 /* header section styles */
+/* ---------------------- */
 
 header{
     background-color: #2D25A0;
@@ -141,8 +143,9 @@ nav .btn i{
     width: 100%;
 }
 
-
-/* players section  */
+/* ---------------------- */
+/*      players section    */
+/* ---------------------- */
 
 .section-players{
     width: 1050px;
@@ -165,7 +168,9 @@ nav .btn i{
     margin-bottom: 16px;
 }
 
+/* ---------------------- */
 /* section highlights */
+/* ---------------------- */
 
 .section-highlight{
     width: 1100px;
@@ -196,7 +201,9 @@ nav .btn i{
     width: 100%;
 }
 
-/* news sections  */
+/* ---------------------- */
+/*    news sections       */
+/* ---------------------- */
 
 .section-news{
     width: 1160px;
@@ -234,7 +241,9 @@ nav .btn i{
     align-self: flex-end;
 }
 
-/* award sectins  */
+/* ---------------------- */
+/*     award sectins     */
+/* ---------------------- */
 
 .section-award{
     width: 1160px;
@@ -271,7 +280,10 @@ nav .btn i{
     font-weight: 400;
 }
 
-/* footer  */
+/* ---------------------- */
+/*        footer          */
+/* ---------------------- */
+
 footer{
     margin: 158px auto 60px;
     width: 485px;
@@ -301,7 +313,24 @@ footer{
     color: #000;
 }
 
-/* media query */
+/* ---------------------- */
+/*      media query      */
+/* ---------------------- */
+
+/* max width 1200 px */
+
+@media only screen and (max-width: 1200px){
+    nav,
+    .main-heading,
+    .heading-banner,
+    .section-players,
+    .section-news,
+    .section-award,
+    .section-highlight,
+    footer{
+        width: 95%;
+    }
+}
 
 /* tablet style max width 900px */
 
